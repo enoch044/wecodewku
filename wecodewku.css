@@ -1,20 +1,24 @@
 body{
     text-align: center;
-    background-image: url(https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fHww);repeat:none;
+    background-color:#1B1B1B ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    font-family: sans-serif;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
     padding: 1rem 2rem;
     color: white;
+    margin-bottom: 10px;
 }
 .nav-links {
   
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  margin-left: 900px;
 }
 .nav-links a {
     color:white;
@@ -37,5 +41,31 @@ body{
 .submit:hover{
     background-color: rgb(245, 141, 6);
     transform: translateY(-2px);
+}
+p,h1,h2{
+    color: #ffff;
+}
+.profile-photo{
+    float: right;
+}
+#about{
+    padding-top: 500px;
+
+}
+h1{
+    font-family: sans-serif;
+    font-size: bold;
+}
+#btn1{
+    background-color: red;
+    width: 75px;
+    height: 25px;
+    border-top: red;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+#btn1:hover{
+    background-color:white;
 }
 
