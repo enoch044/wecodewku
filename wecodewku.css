@@ -11,7 +11,7 @@ body{
     align-items: center;
     padding: 1rem 2rem;
     color: white;
-    margin-bottom: 10px;
+    
 }
 .nav-links {
   
@@ -42,15 +42,30 @@ body{
     background-color: rgb(245, 141, 6);
     transform: translateY(-2px);
 }
-p,h1,h2{
+p,h1,h2,h3{
     color: #ffff;
 }
-.profile-photo{
-    float: right;
+
+.nav-logo{
+    color: white;
+    position: absolute;
+    top: 0;
 }
+
 #about{
     padding-top: 500px;
 
+}
+.profile-photo{
+    float: right;
+    margin-top: -85px;
+    width: 450px;
+    height: 350px;
+    margin-right:90px;
+    position: relative;
+    top: 10px;
+    bottom: 550px;
+    
 }
 h1{
     font-family: sans-serif;
@@ -68,4 +83,172 @@ h1{
 #btn1:hover{
     background-color:white;
 }
+#home{
+    margin-bottom: 300px;
+}
+#home h1{
+   margin-bottom: 150px;
+   margin-top: 40px;
+   margin-right: 500px;
+   font-family: "Science Gothic",sans-serif;
+   font-size: 40px;
+   background: linear-gradient(90deg,red,white);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+#home p{
+    font-family: "Josefine Sans",sans-serif;
+    margin-top: -90px;
+    margin-right: 550px;
+    font-style: italic;
+    font-weight: lighter;
+ }
+ #about{
+    margin-top: -350px;
+ }
+ #about h2{
+    font-size: 40px;
+   background: linear-gradient(90deg,red,white);
+   -webkit-background-clip: text;
+   color: transparent;
+ }
 
+ .description{
+    border:none;
+    width: 900px;
+    height: 180px;
+    background:linear-gradient(270deg,red,white);
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+    margin-top:120px;
+    margin-bottom: 350px;
+ }
+ .description p{
+    color: black;
+    padding-top: 30px;
+ }
+ .project-1{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 380px;
+ }
+ #projects{
+    margin-top: -100px;
+ }
+ #projects h2{
+    font-size: 40px;
+    background: linear-gradient(90deg,red,white);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+ figcaption{
+    color: white;
+    font-style: italic;
+ }
+
+.project-card{
+    width: 300px;
+}
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+#skills{
+    margin-top: -150px;
+}
+#skills h2{
+    font-size: 40px;
+    background: linear-gradient(90deg,red,white);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+.skil{
+    list-style: none;
+    color: aliceblue;
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+.html{
+    border: white solid;
+    width:400px;
+    height: 25px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.html p{
+    color:red;
+    margin-top: 3px;
+    font-weight: 200px;
+}
+.css{
+    border: white solid;
+    width:300px;
+    height: 25px;
+    background-color: white;
+    margin-left: 467px;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.css p{
+    color:red;
+    margin-top: 3px;
+    font-weight: 200px;
+}
+.java{
+    border: white solid;
+    width:150px;
+    height: 25px;
+    background-color: white;
+    margin-left: 467px;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.java p{
+    color:red;
+    margin-top: 3px;
+    font-weight: 200px;
+}
+#contact h2{
+    font-size: 40px;
+    background: linear-gradient(90deg,red,white);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 380px;
+    margin-right: auto;
+}
+.git{
+    size: 500px;
+}
+.form{
+    margin-top: 150px;
+}
+/*main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+
+}
