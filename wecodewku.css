@@ -230,14 +230,50 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    margin-left: 380px;
+    margin-left: 500px;
     margin-right: auto;
 }
-.git{
-    size: 500px;
+.fa-x-twitter{
+    size: 50px;
+    color: white;
+}
+.fa-github{
+    size: 50px;
+    color: white;
+}
+.fa-linkedin{
+    size: 50px;
+    color: blue;
+}
+
+.fa-telegram{
+    size: 50px;
+    color: rgb(29, 80, 245);
 }
 .form{
-    margin-top: 150px;
+    margin-top: 50px;
+    color: white;
+    border: rgb(255, 81, 0) inset;
+    padding-top: 45px;
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right:auto ;
+    border-radius: 25px;
+}
+.footer{
+    
+    background:linear-gradient(270deg,white,red);
+    color: black;
+    margin-bottom: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 100px;
+    
+}
+.footer p{
+    padding-top: 5px;
+    color: black;
 }
 /*main{
     display: grid;
