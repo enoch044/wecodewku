@@ -1,9 +1,21 @@
+*{
+    scroll-behavior: smooth;
+}
+.head button{
+    margin-top: -500px;
+}
 body{
     text-align: center;
     background-color:#1B1B1B ;
     background-repeat: no-repeat;
     background-attachment:fixed ;
     font-family: sans-serif;
+}
+#span{
+    background: linear-gradient(90deg,rgb(0, 38, 255),rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
 .navbar{
     display: flex;
@@ -65,7 +77,10 @@ p,h1,h2,h3{
     position: relative;
     top: 10px;
     bottom: 550px;
-    
+}
+.profile-photo img{
+    border-radius: 80%;
+
 }
 h1{
     font-family: sans-serif;
@@ -79,6 +94,7 @@ h1{
     border-radius: 15px;
     margin-right: 10px;
     margin-bottom: 100px;
+    border: none;
 }
 #btn1:hover{
     background-color:white;
@@ -275,6 +291,22 @@ h1{
     padding-top: 5px;
     color: black;
 }
+.project-card button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background:linear-gradient(270deg,red,white);
+}
+.project-card button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.project-card button:hover{
+    background:linear-gradient(270deg,white,red);
+}
+
 /*main{
     display: grid;
     grid-template-columns: 1fr 1fr;
